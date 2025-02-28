@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #111;
+  font-family: Arial, sans-serif;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.navdiv {
+  display: flex;
+  font-size: 5px;
+  font-weight: 200;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: normal;
+  position: relative;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.logo a {
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+li {
+  float: left;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333;
+}
+
+/* Home Section */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content h3 {
+  font-size: 5 rem;
+  font-weight: 40;
+}
+
+.home-content {
+  font-size: 4rem;
+  font-weight: 50;
+}
+
+span {
+  color: #fff;
+}
+
+.home-content h1 {
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.home-img img {
+  width: 40vw;
+}
+
+.home-content p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background: red;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: red;
+  box-shadow: 0 4px 15px;
+}
+/* About Styling */
+
+.about {
+  padding: 50px 0;
+  background: #333;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.ab {
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.about img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Main Section */
+
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #45ffca;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 40px;
+  width: 20;
+  height: 20;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Course Card Pricing */
+.text-success {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #45ffca;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+}
+
+/* Testimonial Section */
+.card.text-center {
+  padding: 20px;
+}
+
+.card.text-center img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Instructor Section */
+.card.text-center .card-img-top {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.btn-outline-primary {
+  border-color: red;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Reviews Section */
+.card.text-center .text-success {
+  font-size: 1.2rem;
+  border-radius: 40px;
+  width: 30;
+  height: 30;
+  font-weight: bold;
+  color: red;
+}
+
+/* Contact Us section */
+.form-container {
+  background: #fff;
+  padding: 20px;
+  margin-right: 15px;
+  margin-left: 425px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.input-box {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input-box label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-box textarea:focus {
+  border-color: #fff;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #007bff;
+}
+
+/* Footer section */
+
+footer {
+  background: #111;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 15px;
+  min-width: 250px;
+}
+
+.footer-section h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  border-bottom: 2px solid #ff9800;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 10px 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #ff9800;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff9800;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  padding: 10px;
+  background: #333;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
